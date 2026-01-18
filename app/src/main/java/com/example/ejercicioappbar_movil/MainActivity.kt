@@ -41,13 +41,13 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize(),
                     topBar = {
                         AppBarMenu(
-                            title = "Mi Aplicación", // [cite: 26]
+                            title = "Mi Aplicación",
                             onNavigationClick = {
                                 Toast.makeText(context, "Navegación", Toast.LENGTH_SHORT).show()
-                            }, // [cite: 27]
+                            },
                             onFavoriteClick = {
                                 Toast.makeText(context, "Favorito", Toast.LENGTH_SHORT).show()
-                            }, // [cite: 28]
+                            },
                             onMenuItemClick = { option ->
                                 Toast.makeText(context, "Menu: $option", Toast.LENGTH_SHORT).show()
                             }
